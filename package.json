@@ -1,0 +1,15 @@
+{
+  "name": "1-nature",
+  "version": "1.0.0",
+  "description": "I am practicing design",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css"
+  },
+  "author": "arif",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
