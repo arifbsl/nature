@@ -3,3 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/shalukac/public_html
     - /bin/cp -r * $DEPLOYPATH
+    - export CLONE=/home/shalukac
+    - /bin/cp img/* $CLONE
